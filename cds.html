@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Lula Lucena</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scala=1.0">
+    <link href="https://fonts.googleapis.com/css?family= Oswald & display = swap" rel="folha de estilo">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo.png">
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <h1><a href="index.html"><img src="./img/logobranco.png" alt="Logo Marca de Lula lucena"></a></h1>
+            <div class="bloco_botao">
+                <button id="menu_principal" onclick="mostra(this)">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav>
+                <div>
+                    <ul id="sub_menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li class="barra_oculta">|</li>
+                        <li><a href="">Aluguel</a></li>
+                        <li class="barra_oculta">|</li>
+                        <li><a href="./fotos.html">Fotos</a></li>
+                        <li class="barra_oculta">|</li>
+                        <li><a href="">Cds</a></li>
+                        <li class="barra_oculta">|</li>
+                        <li><a href="./faleconosco.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+        <div class="flex">
+            <ul class="ul2">
+                <li><a href="#imgcd1"><img src="./img/slide/foto1.jpg"></a>
+                    <p>Foto1</p>
+                </li>
+
+
+                <li><a href="#imgcd2"><img src="./img/slide/foto2.jpg"></a>
+                    <p>Foto2</p>
+                </li>
+
+                <li><a href="#imgcd3"><img src="./img/slide/foto3.jpg"></a>
+                    <p>Foto3</p>
+                </li>
+
+                <li><a href="#imgcd4"><img src="./img/slide/foto4.jpg"></a>
+                    <p>Foto4</p>
+                </li>
+
+                <li> <a href="#imgcd5"><img src="./img/slide/foto5.jpg"></a>
+                    <p>Foto5</p>
+                </li>
+
+                <li><a href="#imgcd6"><img src="./img/slide/foto6.jpg"></a>
+                    <p>Foto6</p>
+                </li>
+            </ul>
+
+            <div class="lbox" id="img1">
+                <div class="box_img">
+                    <a href="#img6" class="btn2" id="prev">&#171;</a>
+                    <a href="" class="btn2" id="close">X</a>
+                    <img class="box_img2" src="./img/slide/foto1.jpg" alt="">
+                    <a href="#img2" class="btn2" id="next">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img2">
+                <div class="box_img">
+                    <a href="#img1" class="btn2" id="prev">&#171;</a>
+                    <a href="" class="btn2" id="close">X</a>
+                    <img class="box_img2" src="./img/slide/foto2.jpg" alt="">
+                    <a href="#img3" class="btn2" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img3">
+                <div class="box_img">
+                    <a href="#img2" class="btn2" id="prev">&#171;</a>
+                    <a href="" class="btn2" id="close">X</a>
+                    <img class="box_img2" src="./img/slide/foto3.jpg" alt="">
+                    <a href="#img4" class="btn2" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img4">
+                <div class="box_img">
+                    <a href="#img3" class="btn2" id="prev">&#171;</a>
+                    <a href="" class="btn2" id="close">X</a>
+                    <img class="box_img2" src="./img/slide/foto4.jpg" alt="">
+                    <a href="#img5" class="btn2" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img5">
+                <div class="box_img">
+                    <a href="#img4" class="btn2" id="prev">&#171;</a>
+                    <a href="" class="btn2" id="close">X</a>
+                    <img class="box_img2" src="./img/slide/foto5.jpg" alt="">
+                    <a href="#img6" class="btn2" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img6">
+                <div class="box_img">
+                    <a href="#img5" class="btn2" id="prev">&#171;</a>
+                    <a href="" class="btn2" id="close">X</a>
+                    <img class="box_img2" src="./img/slide/foto6.jpg" alt="">
+                    <a href="#img1" class="btn2" id="next">&#187;</a>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <figure>
+                <a href=""><img src="./img/alisson_costa2.png"></a>
+            </figure>
+        </footer>
+    </section>
+</body>
+<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+    $('.bloco_banner').cycle();
+</script>
+<script type="text/javascript" src="./js/script.js"></script>
+<script src="./js/comportamento.js"></script>
+
+</html>
